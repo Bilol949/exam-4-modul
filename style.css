@@ -1,0 +1,30 @@
+#border{
+    
+    border: solid black 1px;
+    
+}
+#rasm{
+    position: absolute;
+}
+#q{
+     color: white; border: solid white 5px;
+}
+@media (max-width:576px) {
+    
+    #almash{
+        
+        flex-direction: column-reverse;
+    }
+    #rasm{
+
+        width: 576px;
+    }
+    #vashe{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ul{
+        display: none;
+    }
+}
